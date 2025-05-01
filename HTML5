@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabuada</h1>
+
+        <!-- Campo para o usuário digitar um número -->
+        <input type="number" id="numero" placeholder="Digite um número" min="1" max="10">
+
+        <!-- Botão que chama a função gerarTabuada() -->
+        <button onclick="gerarTabuada()">Gerar Tabuada</button>
+
+        <!-- Área onde os resultados serão exibidos -->
+        <div id="resultado"></div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
