@@ -14,7 +14,7 @@ Bem-vindo ao projeto **Tabuada Interativa**! Este é um aplicativo web simples e
 
 ## 📸 Preview
 
-![preview](https://github.com/Diego87Aoki/Tabuada/assets/preview-da-tabuada.png)
+![Image](https://github.com/user-attachments/assets/f84160a6-d66a-4e73-a7a6-3730876eb3b9)
 
 ---
 
