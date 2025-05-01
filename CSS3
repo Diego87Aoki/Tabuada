@@ -1,0 +1,71 @@
+/* Define o estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b263b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do container principal */
+.container {
+    background-color: #e0e1dd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.366);
+    text-align: center;
+    width: 300px;
+}
+
+/* Título */
+h1 {
+    color: #0d1b2a;
+    font-size: 24px;
+}
+
+/* Campo de entrada */
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #11101054;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.366));
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #778da9;
+    color: #0d1b2a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Cor ao passar o mouse no botão */
+button:hover {
+    background-color: #415a77;
+}
+
+/* Área dos resultados */
+#resultado {
+    margin-top: 20px;
+}
+
+/* Texto dos resultados */
+p {
+    font-size: 18px;
+    color: #0d1b2a;
+}
+
+/* Estilo para mensagens de erro */
+.erro {
+    color: red;
+    font-size: 16px;
+}
